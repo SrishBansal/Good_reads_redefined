@@ -3,7 +3,7 @@ import "./App.css";
 import { books as initialBooks } from "./data/book";
 import BookCard from "./components/BookCard.js";
 import Header from "./components/Header.js";
-import SearchAndSort from './components/SearchandSort.js';
+import SearchAndSort from './SearchAndSort.js';
 
 
 
