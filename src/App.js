@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { books as initialBooks } from "./data/books";
-import BookCard from "src/components/BookCard.js";
-import Header from ".src/components/Header.js";
+import { books as initialBooks } from "./data/book";
+import BookCard from "./components/BookCard";
+import Header from "./components/Header";
 import SearchAndSort from "src/components/SearchAndSort.js";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(localStorage.getItem('darkMode') === 'true');
