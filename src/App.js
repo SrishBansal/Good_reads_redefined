@@ -3,7 +3,7 @@ import "./App.css";
 import { books as initialBooks } from "./data/book";
 import BookCard from "./components/BookCard.js";
 import Header from "./components/Header.js";
-import SearchAndSort from './components/SearchAndSort';
+import SearchAndSort from 'src/components/SearchAndSort';
 
 function App() {
   const [darkMode, setDarkMode] = useState(localStorage.getItem('darkMode') === 'true');
